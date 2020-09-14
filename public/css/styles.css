@@ -139,6 +139,7 @@ button:disabled {
 
 .compose {
   display: flex;
+  flex-direction: column;
   flex-shrink: 0;
   margin-top: 16px;
   padding: 24px;
@@ -194,4 +195,8 @@ button:disabled {
 }
 .s-users:nth-child(4n + 3) {
   color: rgb(83, 152, 243);
+}
+#send-location {
+  width: 30vw;
+  margin: 10px auto;
 }
